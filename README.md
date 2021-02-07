@@ -12,7 +12,7 @@ python train_wap_lr.py
 
 'faster 10 '
 
-Exprate = 51.~% 
-ours = 51.78%
+|Exprate  | 51.~%  | 
+|ours  |51.78%  | 
 
 
