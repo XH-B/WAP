@@ -11,8 +11,9 @@ In the trainging, not use beam_search to change the learning rate, since it is s
 python train_wap_lr.py
 
 'faster 10 '
-
-|Exprate  | 51.~%  | 
-|ours  |51.78%  | 
+|       | wap   | ours |
+| ---------- | :-----------:  | :-----------: |
+|result Exprate    | 51.~%    | 51.78% |
+|time| 133S | 13S |
 
 
