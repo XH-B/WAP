@@ -16,7 +16,7 @@ python train_wap_lr.py
 
 I should notice I just run train_wap_lr.py and got 51.78% and did not run train_wap.py by myself. 
 
-
+I found the Parameter setting: patence, lr_decrease, halfFlag is important for the results.
 
 'faster 10 '
 |       | wap   | ours |
