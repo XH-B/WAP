@@ -10,6 +10,8 @@ In the trainging, not use beam_search to change the learning rate, since it is s
 
 python train_wap_lr.py
 
+the stting is 
+
 'faster 10 '
 |       | wap   | ours |
 | ---------- | :-----------:  | :-----------: |
