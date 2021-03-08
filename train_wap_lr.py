@@ -14,9 +14,9 @@ multi_gpu_flag = False
 init_param_flag = True
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-use_pretrianed_model = True
-device_ids = [0,1,2]
-pretrained_model_path = './result_2/WAP_params169613_lr_0.0625.pkl' 
+# use_pretrianed_model = True
+# device_ids = [0,1,2]
+# pretrained_model_path = './result_2/WAP_params169613_lr_0.0625.pkl' 
 
 # load configurations
 # paths
@@ -40,10 +40,10 @@ bad_counter = 0
 finish_after = 10000000
 
 
-patience = 10
+patience = 15
 lr_decrease_rate = 2
 halfLrFlag_set = 10
-lrate = 0.0625
+lrate = 1
 
 
 
@@ -58,8 +58,8 @@ else:
     batch_Imagesize = 320000
     maxImagesize = 320000
     valid_batch_Imagesize = 320000
-    batch_size = 8
-    valid_batch_size = 2
+    batch_size = 16
+    valid_batch_size = 8
 
 
 
